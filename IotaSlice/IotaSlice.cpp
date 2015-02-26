@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Matthias Melcher. All rights reserved.
 //
 
-#undef M_MONKEY
-#define M_DRAGON
+#define M_MONKEY
+#undef M_DRAGON
 
 static int kNDrops = 10;
 
