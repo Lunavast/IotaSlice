@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9D85EA616FE0CED0005EDB0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D85EA516FE0CED0005EDB0 /* Cocoa.framework */; };
+		C9D85EB016FE0CED0005EDB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9D85EAE16FE0CED0005EDB0 /* InfoPlist.strings */; };
+		C9D85EB616FE0CED0005EDB0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C9D85EB416FE0CED0005EDB0 /* Credits.rtf */; };
+		C9D85EBC16FE0CED0005EDB0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9D85EBA16FE0CED0005EDB0 /* MainMenu.xib */; };
+		C9D85ECE16FE0D080005EDB0 /* fltk3.framework in Resources */ = {isa = PBXBuildFile; fileRef = C9D85EC816FE0D080005EDB0 /* fltk3.framework */; };
+		C9D85ECF16FE0D080005EDB0 /* fltk3gl.framework in Resources */ = {isa = PBXBuildFile; fileRef = C9D85EC916FE0D080005EDB0 /* fltk3gl.framework */; };
+		C9D85ED016FE0D080005EDB0 /* fltk3images.framework in Resources */ = {isa = PBXBuildFile; fileRef = C9D85ECA16FE0D080005EDB0 /* fltk3images.framework */; };
+		C9D85ED116FE0D080005EDB0 /* fltk3jpeg.framework in Resources */ = {isa = PBXBuildFile; fileRef = C9D85ECB16FE0D080005EDB0 /* fltk3jpeg.framework */; };
+		C9D85ED216FE0D080005EDB0 /* fltk3png.framework in Resources */ = {isa = PBXBuildFile; fileRef = C9D85ECC16FE0D080005EDB0 /* fltk3png.framework */; };
+		C9D85ED316FE0D080005EDB0 /* fltk3zlib.framework in Resources */ = {isa = PBXBuildFile; fileRef = C9D85ECD16FE0D080005EDB0 /* fltk3zlib.framework */; };
+		C9D85ED616FE0D470005EDB0 /* IotaEdit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9D85ED416FE0D470005EDB0 /* IotaEdit.cpp */; };
+		C9D85ED716FE0E1C0005EDB0 /* fltk3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D85EC816FE0D080005EDB0 /* fltk3.framework */; };
+		C9D85ED816FE0E1C0005EDB0 /* fltk3gl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D85EC916FE0D080005EDB0 /* fltk3gl.framework */; };
+		C9D85ED916FE0E1C0005EDB0 /* fltk3images.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D85ECA16FE0D080005EDB0 /* fltk3images.framework */; };
+		C9D85EDA16FE0E1C0005EDB0 /* fltk3jpeg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D85ECB16FE0D080005EDB0 /* fltk3jpeg.framework */; };
+		C9D85EDB16FE0E1C0005EDB0 /* fltk3png.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D85ECC16FE0D080005EDB0 /* fltk3png.framework */; };
+		C9D85EDC16FE0E1C0005EDB0 /* fltk3zlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D85ECD16FE0D080005EDB0 /* fltk3zlib.framework */; };
+		C9D85EDF16FE13DF0005EDB0 /* ItTextEditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9D85EDD16FE13DF0005EDB0 /* ItTextEditor.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9D85EA216FE0CED0005EDB0 /* IotaEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IotaEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D85EA516FE0CED0005EDB0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C9D85EA816FE0CED0005EDB0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C9D85EA916FE0CED0005EDB0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C9D85EAA16FE0CED0005EDB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9D85EAD16FE0CED0005EDB0 /* IotaEdit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IotaEdit-Info.plist"; sourceTree = "<group>"; };
+		C9D85EAF16FE0CED0005EDB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9D85EB316FE0CED0005EDB0 /* IotaEdit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IotaEdit-Prefix.pch"; sourceTree = "<group>"; };
+		C9D85EB516FE0CED0005EDB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C9D85EBB16FE0CED0005EDB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C9D85EC816FE0D080005EDB0 /* fltk3.framework */ = {isa = PBXFileReference; lastKnownFileType = file; name = fltk3.framework; path = ../IotaSlice/fltk3.framework; sourceTree = "<group>"; };
+		C9D85EC916FE0D080005EDB0 /* fltk3gl.framework */ = {isa = PBXFileReference; lastKnownFileType = file; name = fltk3gl.framework; path = ../IotaSlice/fltk3gl.framework; sourceTree = "<group>"; };
+		C9D85ECA16FE0D080005EDB0 /* fltk3images.framework */ = {isa = PBXFileReference; lastKnownFileType = file; name = fltk3images.framework; path = ../IotaSlice/fltk3images.framework; sourceTree = "<group>"; };
+		C9D85ECB16FE0D080005EDB0 /* fltk3jpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = file; name = fltk3jpeg.framework; path = ../IotaSlice/fltk3jpeg.framework; sourceTree = "<group>"; };
+		C9D85ECC16FE0D080005EDB0 /* fltk3png.framework */ = {isa = PBXFileReference; lastKnownFileType = file; name = fltk3png.framework; path = ../IotaSlice/fltk3png.framework; sourceTree = "<group>"; };
+		C9D85ECD16FE0D080005EDB0 /* fltk3zlib.framework */ = {isa = PBXFileReference; lastKnownFileType = file; name = fltk3zlib.framework; path = ../IotaSlice/fltk3zlib.framework; sourceTree = "<group>"; };
+		C9D85ED416FE0D470005EDB0 /* IotaEdit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IotaEdit.cpp; sourceTree = "<group>"; };
+		C9D85ED516FE0D470005EDB0 /* IotaEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IotaEdit.h; sourceTree = "<group>"; };
+		C9D85EDD16FE13DF0005EDB0 /* ItTextEditor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ItTextEditor.cpp; sourceTree = "<group>"; };
+		C9D85EDE16FE13DF0005EDB0 /* ItTextEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItTextEditor.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9D85E9F16FE0CED0005EDB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D85EA616FE0CED0005EDB0 /* Cocoa.framework in Frameworks */,
+				C9D85ED716FE0E1C0005EDB0 /* fltk3.framework in Frameworks */,
+				C9D85ED816FE0E1C0005EDB0 /* fltk3gl.framework in Frameworks */,
+				C9D85ED916FE0E1C0005EDB0 /* fltk3images.framework in Frameworks */,
+				C9D85EDA16FE0E1C0005EDB0 /* fltk3jpeg.framework in Frameworks */,
+				C9D85EDB16FE0E1C0005EDB0 /* fltk3png.framework in Frameworks */,
+				C9D85EDC16FE0E1C0005EDB0 /* fltk3zlib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9D85E9916FE0CED0005EDB0 = {
+			isa = PBXGroup;
+			children = (
+				C9D85EAB16FE0CED0005EDB0 /* IotaEdit */,
+				C9D85EA416FE0CED0005EDB0 /* Frameworks */,
+				C9D85EA316FE0CED0005EDB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9D85EA316FE0CED0005EDB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9D85EA216FE0CED0005EDB0 /* IotaEdit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9D85EA416FE0CED0005EDB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9D85EC816FE0D080005EDB0 /* fltk3.framework */,
+				C9D85EC916FE0D080005EDB0 /* fltk3gl.framework */,
+				C9D85ECA16FE0D080005EDB0 /* fltk3images.framework */,
+				C9D85ECB16FE0D080005EDB0 /* fltk3jpeg.framework */,
+				C9D85ECC16FE0D080005EDB0 /* fltk3png.framework */,
+				C9D85ECD16FE0D080005EDB0 /* fltk3zlib.framework */,
+				C9D85EA516FE0CED0005EDB0 /* Cocoa.framework */,
+				C9D85EA716FE0CED0005EDB0 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9D85EA716FE0CED0005EDB0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9D85EA816FE0CED0005EDB0 /* AppKit.framework */,
+				C9D85EA916FE0CED0005EDB0 /* CoreData.framework */,
+				C9D85EAA16FE0CED0005EDB0 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C9D85EAB16FE0CED0005EDB0 /* IotaEdit */ = {
+			isa = PBXGroup;
+			children = (
+				C9D85EBA16FE0CED0005EDB0 /* MainMenu.xib */,
+				C9D85EAC16FE0CED0005EDB0 /* Supporting Files */,
+				C9D85ED416FE0D470005EDB0 /* IotaEdit.cpp */,
+				C9D85ED516FE0D470005EDB0 /* IotaEdit.h */,
+				C9D85EDD16FE13DF0005EDB0 /* ItTextEditor.cpp */,
+				C9D85EDE16FE13DF0005EDB0 /* ItTextEditor.h */,
+			);
+			path = IotaEdit;
+			sourceTree = "<group>";
+		};
+		C9D85EAC16FE0CED0005EDB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9D85EAD16FE0CED0005EDB0 /* IotaEdit-Info.plist */,
+				C9D85EAE16FE0CED0005EDB0 /* InfoPlist.strings */,
+				C9D85EB316FE0CED0005EDB0 /* IotaEdit-Prefix.pch */,
+				C9D85EB416FE0CED0005EDB0 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9D85EA116FE0CED0005EDB0 /* IotaEdit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9D85EBF16FE0CED0005EDB0 /* Build configuration list for PBXNativeTarget "IotaEdit" */;
+			buildPhases = (
+				C9D85E9E16FE0CED0005EDB0 /* Sources */,
+				C9D85E9F16FE0CED0005EDB0 /* Frameworks */,
+				C9D85EA016FE0CED0005EDB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IotaEdit;
+			productName = IotaEdit;
+			productReference = C9D85EA216FE0CED0005EDB0 /* IotaEdit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9D85E9A16FE0CED0005EDB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = It;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Matthias Melcher";
+			};
+			buildConfigurationList = C9D85E9D16FE0CED0005EDB0 /* Build configuration list for PBXProject "IotaEdit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9D85E9916FE0CED0005EDB0;
+			productRefGroup = C9D85EA316FE0CED0005EDB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9D85EA116FE0CED0005EDB0 /* IotaEdit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9D85EA016FE0CED0005EDB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D85EB016FE0CED0005EDB0 /* InfoPlist.strings in Resources */,
+				C9D85EB616FE0CED0005EDB0 /* Credits.rtf in Resources */,
+				C9D85EBC16FE0CED0005EDB0 /* MainMenu.xib in Resources */,
+				C9D85ECE16FE0D080005EDB0 /* fltk3.framework in Resources */,
+				C9D85ECF16FE0D080005EDB0 /* fltk3gl.framework in Resources */,
+				C9D85ED016FE0D080005EDB0 /* fltk3images.framework in Resources */,
+				C9D85ED116FE0D080005EDB0 /* fltk3jpeg.framework in Resources */,
+				C9D85ED216FE0D080005EDB0 /* fltk3png.framework in Resources */,
+				C9D85ED316FE0D080005EDB0 /* fltk3zlib.framework in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9D85E9E16FE0CED0005EDB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D85ED616FE0D470005EDB0 /* IotaEdit.cpp in Sources */,
+				C9D85EDF16FE13DF0005EDB0 /* ItTextEditor.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9D85EAE16FE0CED0005EDB0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9D85EAF16FE0CED0005EDB0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9D85EB416FE0CED0005EDB0 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9D85EB516FE0CED0005EDB0 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C9D85EBA16FE0CED0005EDB0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9D85EBB16FE0CED0005EDB0 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9D85EBD16FE0CED0005EDB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C9D85EBE16FE0CED0005EDB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9D85EC016FE0CED0005EDB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../IotaSlice\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IotaEdit/IotaEdit-Prefix.pch";
+				INFOPLIST_FILE = "IotaEdit/IotaEdit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9D85EC116FE0CED0005EDB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../IotaSlice\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IotaEdit/IotaEdit-Prefix.pch";
+				INFOPLIST_FILE = "IotaEdit/IotaEdit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9D85E9D16FE0CED0005EDB0 /* Build configuration list for PBXProject "IotaEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9D85EBD16FE0CED0005EDB0 /* Debug */,
+				C9D85EBE16FE0CED0005EDB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9D85EBF16FE0CED0005EDB0 /* Build configuration list for PBXNativeTarget "IotaEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9D85EC016FE0CED0005EDB0 /* Debug */,
+				C9D85EC116FE0CED0005EDB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9D85E9A16FE0CED0005EDB0 /* Project object */;
+}
