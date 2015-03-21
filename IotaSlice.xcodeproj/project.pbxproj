@@ -20,6 +20,12 @@
 		C9FFB4B31ABD6C2C0081D9B1 /* fltk_png.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FFB4AD1ABD6C2C0081D9B1 /* fltk_png.framework */; };
 		C9FFB4B41ABD6C2C0081D9B1 /* fltk_zlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FFB4AE1ABD6C2C0081D9B1 /* fltk_zlib.framework */; };
 		C9FFB4B51ABD6C2C0081D9B1 /* fltk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FFB4AF1ABD6C2C0081D9B1 /* fltk.framework */; };
+		C9FFB4B71ABD6F420081D9B1 /* fltk_gl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9FFB4AA1ABD6C2C0081D9B1 /* fltk_gl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C9FFB4B81ABD6F420081D9B1 /* fltk_images.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9FFB4AB1ABD6C2C0081D9B1 /* fltk_images.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C9FFB4B91ABD6F420081D9B1 /* fltk_jpeg.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9FFB4AC1ABD6C2C0081D9B1 /* fltk_jpeg.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C9FFB4BA1ABD6F420081D9B1 /* fltk_png.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9FFB4AD1ABD6C2C0081D9B1 /* fltk_png.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C9FFB4BB1ABD6F420081D9B1 /* fltk_zlib.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9FFB4AE1ABD6C2C0081D9B1 /* fltk_zlib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C9FFB4BC1ABD6F420081D9B1 /* fltk.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9FFB4AF1ABD6C2C0081D9B1 /* fltk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +37,24 @@
 			remoteInfo = IotaEdit;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9FFB4B61ABD6F310081D9B1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C9FFB4B71ABD6F420081D9B1 /* fltk_gl.framework in CopyFiles */,
+				C9FFB4B81ABD6F420081D9B1 /* fltk_images.framework in CopyFiles */,
+				C9FFB4B91ABD6F420081D9B1 /* fltk_jpeg.framework in CopyFiles */,
+				C9FFB4BA1ABD6F420081D9B1 /* fltk_png.framework in CopyFiles */,
+				C9FFB4BB1ABD6F420081D9B1 /* fltk_zlib.framework in CopyFiles */,
+				C9FFB4BC1ABD6F420081D9B1 /* fltk.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C966A6E316E55D7400A3B7D5 /* lib3ds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib3ds.a; path = IotaSlice/lib3ds.a; sourceTree = "<group>"; };
@@ -161,6 +185,7 @@
 				C98AB39316E145CF00487AD8 /* Sources */,
 				C98AB39416E145CF00487AD8 /* Frameworks */,
 				C98AB39516E145CF00487AD8 /* Resources */,
+				C9FFB4B61ABD6F310081D9B1 /* CopyFiles */,
 			);
 			buildRules = (
 			);
