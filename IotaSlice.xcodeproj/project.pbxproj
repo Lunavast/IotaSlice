@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C966A6DD16E55A1D00A3B7D5 /* fltk3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C966A6D716E55A1D00A3B7D5 /* fltk3.framework */; };
-		C966A6DE16E55A1D00A3B7D5 /* fltk3gl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C966A6D816E55A1D00A3B7D5 /* fltk3gl.framework */; };
-		C966A6DF16E55A1D00A3B7D5 /* fltk3images.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C966A6D916E55A1D00A3B7D5 /* fltk3images.framework */; };
-		C966A6E016E55A1D00A3B7D5 /* fltk3jpeg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C966A6DA16E55A1D00A3B7D5 /* fltk3jpeg.framework */; };
-		C966A6E116E55A1D00A3B7D5 /* fltk3png.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C966A6DB16E55A1D00A3B7D5 /* fltk3png.framework */; };
-		C966A6E216E55A1D00A3B7D5 /* fltk3zlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C966A6DC16E55A1D00A3B7D5 /* fltk3zlib.framework */; };
 		C966A6E416E55D7400A3B7D5 /* lib3ds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C966A6E316E55D7400A3B7D5 /* lib3ds.a */; };
 		C966A6E616E5627300A3B7D5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C966A6E516E5627300A3B7D5 /* OpenGL.framework */; };
 		C98AB39C16E145CF00487AD8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98AB39B16E145CF00487AD8 /* Cocoa.framework */; };
@@ -20,6 +14,12 @@
 		C98AB3AC16E145CF00487AD8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C98AB3AA16E145CF00487AD8 /* Credits.rtf */; };
 		C98AB3B216E145CF00487AD8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C98AB3B016E145CF00487AD8 /* MainMenu.xib */; };
 		C98AB3C416E1463000487AD8 /* IotaSlice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C98AB3C216E1463000487AD8 /* IotaSlice.cpp */; };
+		C9FFB4B01ABD6C2C0081D9B1 /* fltk_gl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FFB4AA1ABD6C2C0081D9B1 /* fltk_gl.framework */; };
+		C9FFB4B11ABD6C2C0081D9B1 /* fltk_images.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FFB4AB1ABD6C2C0081D9B1 /* fltk_images.framework */; };
+		C9FFB4B21ABD6C2C0081D9B1 /* fltk_jpeg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FFB4AC1ABD6C2C0081D9B1 /* fltk_jpeg.framework */; };
+		C9FFB4B31ABD6C2C0081D9B1 /* fltk_png.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FFB4AD1ABD6C2C0081D9B1 /* fltk_png.framework */; };
+		C9FFB4B41ABD6C2C0081D9B1 /* fltk_zlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FFB4AE1ABD6C2C0081D9B1 /* fltk_zlib.framework */; };
+		C9FFB4B51ABD6C2C0081D9B1 /* fltk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FFB4AF1ABD6C2C0081D9B1 /* fltk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,12 +33,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C966A6D716E55A1D00A3B7D5 /* fltk3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = fltk3.framework; path = IotaSlice/fltk3.framework; sourceTree = "<group>"; };
-		C966A6D816E55A1D00A3B7D5 /* fltk3gl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = fltk3gl.framework; path = IotaSlice/fltk3gl.framework; sourceTree = "<group>"; };
-		C966A6D916E55A1D00A3B7D5 /* fltk3images.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = fltk3images.framework; path = IotaSlice/fltk3images.framework; sourceTree = "<group>"; };
-		C966A6DA16E55A1D00A3B7D5 /* fltk3jpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = fltk3jpeg.framework; path = IotaSlice/fltk3jpeg.framework; sourceTree = "<group>"; };
-		C966A6DB16E55A1D00A3B7D5 /* fltk3png.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = fltk3png.framework; path = IotaSlice/fltk3png.framework; sourceTree = "<group>"; };
-		C966A6DC16E55A1D00A3B7D5 /* fltk3zlib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = fltk3zlib.framework; path = IotaSlice/fltk3zlib.framework; sourceTree = "<group>"; };
 		C966A6E316E55D7400A3B7D5 /* lib3ds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib3ds.a; path = IotaSlice/lib3ds.a; sourceTree = "<group>"; };
 		C966A6E516E5627300A3B7D5 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		C98AB39716E145CF00487AD8 /* IotaSlice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IotaSlice.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +48,12 @@
 		C98AB3C216E1463000487AD8 /* IotaSlice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IotaSlice.cpp; sourceTree = "<group>"; };
 		C98AB3C316E1463000487AD8 /* IotaSlice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IotaSlice.h; sourceTree = "<group>"; };
 		C9D85EC216FE0CED0005EDB0 /* IotaEdit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IotaEdit.xcodeproj; path = IotaEdit/IotaEdit.xcodeproj; sourceTree = "<group>"; };
+		C9FFB4AA1ABD6C2C0081D9B1 /* fltk_gl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = fltk_gl.framework; sourceTree = "<group>"; };
+		C9FFB4AB1ABD6C2C0081D9B1 /* fltk_images.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = fltk_images.framework; sourceTree = "<group>"; };
+		C9FFB4AC1ABD6C2C0081D9B1 /* fltk_jpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = fltk_jpeg.framework; sourceTree = "<group>"; };
+		C9FFB4AD1ABD6C2C0081D9B1 /* fltk_png.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = fltk_png.framework; sourceTree = "<group>"; };
+		C9FFB4AE1ABD6C2C0081D9B1 /* fltk_zlib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = fltk_zlib.framework; sourceTree = "<group>"; };
+		C9FFB4AF1ABD6C2C0081D9B1 /* fltk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = fltk.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,14 +61,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9FFB4B41ABD6C2C0081D9B1 /* fltk_zlib.framework in Frameworks */,
+				C9FFB4B01ABD6C2C0081D9B1 /* fltk_gl.framework in Frameworks */,
+				C9FFB4B21ABD6C2C0081D9B1 /* fltk_jpeg.framework in Frameworks */,
+				C9FFB4B31ABD6C2C0081D9B1 /* fltk_png.framework in Frameworks */,
+				C9FFB4B11ABD6C2C0081D9B1 /* fltk_images.framework in Frameworks */,
 				C966A6E616E5627300A3B7D5 /* OpenGL.framework in Frameworks */,
 				C98AB39C16E145CF00487AD8 /* Cocoa.framework in Frameworks */,
-				C966A6DD16E55A1D00A3B7D5 /* fltk3.framework in Frameworks */,
-				C966A6DE16E55A1D00A3B7D5 /* fltk3gl.framework in Frameworks */,
-				C966A6DF16E55A1D00A3B7D5 /* fltk3images.framework in Frameworks */,
-				C966A6E016E55A1D00A3B7D5 /* fltk3jpeg.framework in Frameworks */,
-				C966A6E116E55A1D00A3B7D5 /* fltk3png.framework in Frameworks */,
-				C966A6E216E55A1D00A3B7D5 /* fltk3zlib.framework in Frameworks */,
+				C9FFB4B51ABD6C2C0081D9B1 /* fltk.framework in Frameworks */,
 				C966A6E416E55D7400A3B7D5 /* lib3ds.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,12 +98,12 @@
 		C98AB39A16E145CF00487AD8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C966A6D716E55A1D00A3B7D5 /* fltk3.framework */,
-				C966A6D816E55A1D00A3B7D5 /* fltk3gl.framework */,
-				C966A6D916E55A1D00A3B7D5 /* fltk3images.framework */,
-				C966A6DA16E55A1D00A3B7D5 /* fltk3jpeg.framework */,
-				C966A6DB16E55A1D00A3B7D5 /* fltk3png.framework */,
-				C966A6DC16E55A1D00A3B7D5 /* fltk3zlib.framework */,
+				C9FFB4AA1ABD6C2C0081D9B1 /* fltk_gl.framework */,
+				C9FFB4AB1ABD6C2C0081D9B1 /* fltk_images.framework */,
+				C9FFB4AC1ABD6C2C0081D9B1 /* fltk_jpeg.framework */,
+				C9FFB4AD1ABD6C2C0081D9B1 /* fltk_png.framework */,
+				C9FFB4AE1ABD6C2C0081D9B1 /* fltk_zlib.framework */,
+				C9FFB4AF1ABD6C2C0081D9B1 /* fltk.framework */,
 				C98AB39B16E145CF00487AD8 /* Cocoa.framework */,
 				C966A6E316E55D7400A3B7D5 /* lib3ds.a */,
 				C98AB39D16E145CF00487AD8 /* Other Frameworks */,
@@ -322,10 +322,16 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/IotaSlice\"",
+					"$(SRCROOT)/IotaSlice",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IotaSlice/IotaSlice-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					$SRCROOT/fltk.framework/Versions/Current/Headers,
+				);
 				INFOPLIST_FILE = "IotaSlice/IotaSlice-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -342,10 +348,16 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/IotaSlice\"",
+					"$(SRCROOT)/IotaSlice",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IotaSlice/IotaSlice-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					$SRCROOT/fltk.framework/Versions/Current/Headers,
+				);
 				INFOPLIST_FILE = "IotaSlice/IotaSlice-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

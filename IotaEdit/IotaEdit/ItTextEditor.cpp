@@ -30,16 +30,16 @@
 #include <stdlib.h>
 
 
-fltk3::TextDisplay::StyleTableEntry ItTextEditor::
+Fl_TextDisplay::StyleTableEntry ItTextEditor::
 styletable[] = {	// Style table
-  { fltk3::FOREGROUND_COLOR, fltk3::HELVETICA,        12 }, // A - Plain
-  { fltk3::FOREGROUND_COLOR, fltk3::COURIER,          12 }, // B - Preformatted
-  { fltk3::BLUE,             fltk3::HELVETICA,        12 }, // C - HTML Links
-  { fltk3::BLUE,             fltk3::HELVETICA,        12 }, // C - HTML Links
-  { fltk3::BLUE,             fltk3::HELVETICA,        12 }, // C - HTML Links
-  { fltk3::BLUE,             fltk3::HELVETICA,        12 }, // C - HTML Links
-  { fltk3::BLUE,             fltk3::HELVETICA,        12 }, // C - HTML Links
-  { fltk3::BLUE,             fltk3::HELVETICA,        12 }, // C - HTML Links
+  { Fl_FOREGROUND_COLOR, Fl_HELVETICA,        12 }, // A - Plain
+  { Fl_FOREGROUND_COLOR, Fl_COURIER,          12 }, // B - Preformatted
+  { Fl_BLUE,             Fl_HELVETICA,        12 }, // C - HTML Links
+  { Fl_BLUE,             Fl_HELVETICA,        12 }, // C - HTML Links
+  { Fl_BLUE,             Fl_HELVETICA,        12 }, // C - HTML Links
+  { Fl_BLUE,             Fl_HELVETICA,        12 }, // C - HTML Links
+  { Fl_BLUE,             Fl_HELVETICA,        12 }, // C - HTML Links
+  { Fl_BLUE,             Fl_HELVETICA,        12 }, // C - HTML Links
 };
 
 #if 0
@@ -69,9 +69,9 @@ default: addText("UNKNOWN"); addNewLine(); err = 1; break;
 #endif
 
 ItTextEditor::ItTextEditor(int x, int y, int w, int h, const char *l)
-: fltk3::TextEditor(x, y, w, h, l)
+: Fl_TextEditor(x, y, w, h, l)
 {
-  buffer(new fltk3::TextBuffer);
+  buffer(new Fl_TextBuffer);
   
   char *style = new char[mBuffer->length() + 1];
   char *text = mBuffer->text();
@@ -79,7 +79,7 @@ ItTextEditor::ItTextEditor(int x, int y, int w, int h, const char *l)
   memset(style, 'A', mBuffer->length());
   style[mBuffer->length()] = '\0';
   
-  highlight_data(new fltk3::TextBuffer(mBuffer->length()), styletable,
+  highlight_data(new Fl_TextBuffer(mBuffer->length()), styletable,
                  sizeof(styletable) / sizeof(styletable[0]),
                  'A', style_unfinished_cb, this);
   
@@ -95,12 +95,12 @@ ItTextEditor::ItTextEditor(int x, int y, int w, int h, const char *l)
 
 void ItTextEditor::add_modify_callback()
 {
-  buffer()->add_modify_callback(fltk3::TextEditor::buffer_modified_cb, this);
+  buffer()->add_modify_callback(Fl_TextEditor::buffer_modified_cb, this);
 }
 
 void ItTextEditor::remove_modify_callback()
 {
-  buffer()->remove_modify_callback(fltk3::TextEditor::buffer_modified_cb, this);
+  buffer()->remove_modify_callback(Fl_TextEditor::buffer_modified_cb, this);
 }
 
 // 'compare_keywords()' - Compare two keywords...

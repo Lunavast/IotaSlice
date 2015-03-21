@@ -11,19 +11,7 @@
 		C9D85EB016FE0CED0005EDB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9D85EAE16FE0CED0005EDB0 /* InfoPlist.strings */; };
 		C9D85EB616FE0CED0005EDB0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C9D85EB416FE0CED0005EDB0 /* Credits.rtf */; };
 		C9D85EBC16FE0CED0005EDB0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9D85EBA16FE0CED0005EDB0 /* MainMenu.xib */; };
-		C9D85ECE16FE0D080005EDB0 /* fltk3.framework in Resources */ = {isa = PBXBuildFile; fileRef = C9D85EC816FE0D080005EDB0 /* fltk3.framework */; };
-		C9D85ECF16FE0D080005EDB0 /* fltk3gl.framework in Resources */ = {isa = PBXBuildFile; fileRef = C9D85EC916FE0D080005EDB0 /* fltk3gl.framework */; };
-		C9D85ED016FE0D080005EDB0 /* fltk3images.framework in Resources */ = {isa = PBXBuildFile; fileRef = C9D85ECA16FE0D080005EDB0 /* fltk3images.framework */; };
-		C9D85ED116FE0D080005EDB0 /* fltk3jpeg.framework in Resources */ = {isa = PBXBuildFile; fileRef = C9D85ECB16FE0D080005EDB0 /* fltk3jpeg.framework */; };
-		C9D85ED216FE0D080005EDB0 /* fltk3png.framework in Resources */ = {isa = PBXBuildFile; fileRef = C9D85ECC16FE0D080005EDB0 /* fltk3png.framework */; };
-		C9D85ED316FE0D080005EDB0 /* fltk3zlib.framework in Resources */ = {isa = PBXBuildFile; fileRef = C9D85ECD16FE0D080005EDB0 /* fltk3zlib.framework */; };
 		C9D85ED616FE0D470005EDB0 /* IotaEdit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9D85ED416FE0D470005EDB0 /* IotaEdit.cpp */; };
-		C9D85ED716FE0E1C0005EDB0 /* fltk3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D85EC816FE0D080005EDB0 /* fltk3.framework */; };
-		C9D85ED816FE0E1C0005EDB0 /* fltk3gl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D85EC916FE0D080005EDB0 /* fltk3gl.framework */; };
-		C9D85ED916FE0E1C0005EDB0 /* fltk3images.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D85ECA16FE0D080005EDB0 /* fltk3images.framework */; };
-		C9D85EDA16FE0E1C0005EDB0 /* fltk3jpeg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D85ECB16FE0D080005EDB0 /* fltk3jpeg.framework */; };
-		C9D85EDB16FE0E1C0005EDB0 /* fltk3png.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D85ECC16FE0D080005EDB0 /* fltk3png.framework */; };
-		C9D85EDC16FE0E1C0005EDB0 /* fltk3zlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D85ECD16FE0D080005EDB0 /* fltk3zlib.framework */; };
 		C9D85EDF16FE13DF0005EDB0 /* ItTextEditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9D85EDD16FE13DF0005EDB0 /* ItTextEditor.cpp */; };
 /* End PBXBuildFile section */
 
@@ -38,12 +26,6 @@
 		C9D85EB316FE0CED0005EDB0 /* IotaEdit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IotaEdit-Prefix.pch"; sourceTree = "<group>"; };
 		C9D85EB516FE0CED0005EDB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		C9D85EBB16FE0CED0005EDB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		C9D85EC816FE0D080005EDB0 /* fltk3.framework */ = {isa = PBXFileReference; lastKnownFileType = file; name = fltk3.framework; path = ../IotaSlice/fltk3.framework; sourceTree = "<group>"; };
-		C9D85EC916FE0D080005EDB0 /* fltk3gl.framework */ = {isa = PBXFileReference; lastKnownFileType = file; name = fltk3gl.framework; path = ../IotaSlice/fltk3gl.framework; sourceTree = "<group>"; };
-		C9D85ECA16FE0D080005EDB0 /* fltk3images.framework */ = {isa = PBXFileReference; lastKnownFileType = file; name = fltk3images.framework; path = ../IotaSlice/fltk3images.framework; sourceTree = "<group>"; };
-		C9D85ECB16FE0D080005EDB0 /* fltk3jpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = file; name = fltk3jpeg.framework; path = ../IotaSlice/fltk3jpeg.framework; sourceTree = "<group>"; };
-		C9D85ECC16FE0D080005EDB0 /* fltk3png.framework */ = {isa = PBXFileReference; lastKnownFileType = file; name = fltk3png.framework; path = ../IotaSlice/fltk3png.framework; sourceTree = "<group>"; };
-		C9D85ECD16FE0D080005EDB0 /* fltk3zlib.framework */ = {isa = PBXFileReference; lastKnownFileType = file; name = fltk3zlib.framework; path = ../IotaSlice/fltk3zlib.framework; sourceTree = "<group>"; };
 		C9D85ED416FE0D470005EDB0 /* IotaEdit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IotaEdit.cpp; sourceTree = "<group>"; };
 		C9D85ED516FE0D470005EDB0 /* IotaEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IotaEdit.h; sourceTree = "<group>"; };
 		C9D85EDD16FE13DF0005EDB0 /* ItTextEditor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ItTextEditor.cpp; sourceTree = "<group>"; };
@@ -56,12 +38,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9D85EA616FE0CED0005EDB0 /* Cocoa.framework in Frameworks */,
-				C9D85ED716FE0E1C0005EDB0 /* fltk3.framework in Frameworks */,
-				C9D85ED816FE0E1C0005EDB0 /* fltk3gl.framework in Frameworks */,
-				C9D85ED916FE0E1C0005EDB0 /* fltk3images.framework in Frameworks */,
-				C9D85EDA16FE0E1C0005EDB0 /* fltk3jpeg.framework in Frameworks */,
-				C9D85EDB16FE0E1C0005EDB0 /* fltk3png.framework in Frameworks */,
-				C9D85EDC16FE0E1C0005EDB0 /* fltk3zlib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,12 +64,6 @@
 		C9D85EA416FE0CED0005EDB0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C9D85EC816FE0D080005EDB0 /* fltk3.framework */,
-				C9D85EC916FE0D080005EDB0 /* fltk3gl.framework */,
-				C9D85ECA16FE0D080005EDB0 /* fltk3images.framework */,
-				C9D85ECB16FE0D080005EDB0 /* fltk3jpeg.framework */,
-				C9D85ECC16FE0D080005EDB0 /* fltk3png.framework */,
-				C9D85ECD16FE0D080005EDB0 /* fltk3zlib.framework */,
 				C9D85EA516FE0CED0005EDB0 /* Cocoa.framework */,
 				C9D85EA716FE0CED0005EDB0 /* Other Frameworks */,
 			);
@@ -189,12 +159,6 @@
 				C9D85EB016FE0CED0005EDB0 /* InfoPlist.strings in Resources */,
 				C9D85EB616FE0CED0005EDB0 /* Credits.rtf in Resources */,
 				C9D85EBC16FE0CED0005EDB0 /* MainMenu.xib in Resources */,
-				C9D85ECE16FE0D080005EDB0 /* fltk3.framework in Resources */,
-				C9D85ECF16FE0D080005EDB0 /* fltk3gl.framework in Resources */,
-				C9D85ED016FE0D080005EDB0 /* fltk3images.framework in Resources */,
-				C9D85ED116FE0D080005EDB0 /* fltk3jpeg.framework in Resources */,
-				C9D85ED216FE0D080005EDB0 /* fltk3png.framework in Resources */,
-				C9D85ED316FE0D080005EDB0 /* fltk3zlib.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +312,7 @@
 				C9D85EC116FE0CED0005EDB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

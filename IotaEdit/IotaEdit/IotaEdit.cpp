@@ -60,8 +60,8 @@ fire 2048
 #include "ItTextEditor.h"
 
 
-fltk3::Window *gMainWindow;
-fltk3::MenuBar *gMainMenu;
+Fl_Window *gMainWindow;
+Fl_MenuBar *gMainMenu;
 ItTextEditor *gTextEditor;
 char *gCurrentFileName = 0;
 
@@ -280,9 +280,9 @@ void writeTextEOL(FILE *f, stringRef src)
 
 
 
-static void mainMenuFileOpenCB(fltk3::Widget*, void*)
+static void mainMenuFileOpenCB(Fl_Widget*, void*)
 {
-  char *fn = fltk3::file_chooser("Open a 3dp file", "*.3dp", gCurrentFileName);
+  char *fn = Fl_file_chooser("Open a 3dp file", "*.3dp", gCurrentFileName);
   if (fn==NULL) {
     return;
   }
@@ -291,7 +291,7 @@ static void mainMenuFileOpenCB(fltk3::Widget*, void*)
   // load code
   FILE *f = fopen(gCurrentFileName, "rb");
   if (f==NULL) {
-    fltk3::message("Can't open file");
+    Fl_message("Can't open file");
     return;
   }
   //  17 03 8f 5d
@@ -300,7 +300,7 @@ static void mainMenuFileOpenCB(fltk3::Widget*, void*)
   int32_t v2 = readInt(f);
   int32_t version = readInt(f);
   if (v0!=23 || v1!=3 || v2!=2013) {
-    fltk3::message("Unknown file format");
+    Fl_message("Unknown file format");
     fclose(f);
     return;
   }
@@ -345,7 +345,7 @@ static void mainMenuFileOpenCB(fltk3::Widget*, void*)
     }
   }
   if (err) {
-    fltk3::message("Error in file contents.\nProceed with caution.\n(Version missmatch?)");
+    Fl_message("Error in file contents.\nProceed with caution.\n(Version missmatch?)");
   }
   fclose(f);
   gTextEditor->buffer()->text(tmpBuf);
@@ -357,7 +357,7 @@ void saveFile(const char *fn)
   // save code
   FILE *f = fopen(gCurrentFileName, "wb");
   if (f==NULL) {
-    fltk3::message("Can't open file");
+    Fl_message("Can't open file");
     return;
   }
   writeInt(f, 23);  // Magic
@@ -444,9 +444,9 @@ void saveFile(const char *fn)
 }
 
 
-static void mainMenuFileSaveAsCB(fltk3::Widget*, void*)
+static void mainMenuFileSaveAsCB(Fl_Widget*, void*)
 {
-  char *fn = fltk3::file_chooser("Save a 3dp file", "*.3dp", gCurrentFileName);
+  char *fn = Fl_file_chooser("Save a 3dp file", "*.3dp", gCurrentFileName);
   if (fn==NULL) {
     return;
   }
@@ -455,27 +455,27 @@ static void mainMenuFileSaveAsCB(fltk3::Widget*, void*)
 }
 
 
-static void mainMenuFileSaveCB(fltk3::Widget*, void*)
+static void mainMenuFileSaveCB(Fl_Widget*, void*)
 {
   if (gCurrentFileName)
     saveFile(gCurrentFileName);
 }
 
 
-static void mainMenuFileQuitCB(fltk3::Widget*, void*)
+static void mainMenuFileQuitCB(Fl_Widget*, void*)
 {
   // TODO: offer to save file
   gMainWindow->hide();
 }
 
 
-static fltk3::MenuItem gMainMenuItems[] = {
-  { "File", 0, 0, 0, fltk3::SUBMENU },
-  {   "Open...",    fltk3::META+'o', mainMenuFileOpenCB, 0 },
-  {   "Open SD Card run.3dp", fltk3::META+'O', 0, 0 },
-  {   "Save",       fltk3::META+'s', mainMenuFileSaveCB, 0 },
-  {   "Save As...", fltk3::META+'S', mainMenuFileSaveAsCB, 0 },
-  {   "Quit",       fltk3::META+'q', mainMenuFileQuitCB, 0 },
+static Fl_MenuItem gMainMenuItems[] = {
+  { "File", 0, 0, 0, Fl_SUBMENU },
+  {   "Open...",    Fl_META+'o', mainMenuFileOpenCB, 0 },
+  {   "Open SD Card run.3dp", Fl_META+'O', 0, 0 },
+  {   "Save",       Fl_META+'s', mainMenuFileSaveCB, 0 },
+  {   "Save As...", Fl_META+'S', mainMenuFileSaveAsCB, 0 },
+  {   "Quit",       Fl_META+'q', mainMenuFileQuitCB, 0 },
   {   0 },
   { 0 }
 };
@@ -483,10 +483,10 @@ static fltk3::MenuItem gMainMenuItems[] = {
 
 int main(int argc, char **argv)
 {
-  gMainWindow = new fltk3::Window(600, 800, "IotaEdit V0.1");
-  gMainMenu = new fltk3::MenuBar(0, 0, gMainWindow->w(), 25);
+  gMainWindow = new Fl_Window(600, 800, "IotaEdit V0.1");
+  gMainMenu = new Fl_MenuBar(0, 0, gMainWindow->w(), 25);
   gMainMenu->menu(gMainMenuItems);
   gTextEditor = new ItTextEditor(0, gMainMenu->b(), gMainWindow->w(), gMainWindow->h()-gMainMenu->b());
   gMainWindow->show(argc, argv);
-  fltk3::run();
+  Fl_run();
 }

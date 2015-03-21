@@ -12,7 +12,7 @@
 
 #include <vector>
 
-class ISVertex;
+class ISVertex; 
 class ISEdge;
 class ISFace;
 class ISMesh;

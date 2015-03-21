@@ -29,14 +29,14 @@
 
 #include <fltk3/TextEditor.h>
 
-class ItTextEditor : public fltk3::TextEditor
+class ItTextEditor : public Fl_TextEditor
 {
 public:
   ItTextEditor(int x, int y, int w, int h, const char *l=0);
   void add_modify_callback();
   void remove_modify_callback();
 protected:
-  static fltk3::TextDisplay::StyleTableEntry styletable[];
+  static Fl_TextDisplay::StyleTableEntry styletable[];
   static int compare_keywords(const void *a, const void *b);
   static void style_parse(const char *text, char *style, int length);
   static void style_unfinished_cb(int, void*);
